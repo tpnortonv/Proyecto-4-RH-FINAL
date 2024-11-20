@@ -9,6 +9,6 @@ router.get('/:id', reservasControllers.obtenerReservaPorId); // Obtener reserva 
 router.put('/:id', reservasControllers.actualizarReserva); // Actualizar reserva (ID).
 router.delete('/:id', reservasControllers.eliminarReserva); // Eliminar reserva (ID).
 
-router.get('/', reservasControllers.filtrarReservas); // Filtros
+router.get('/filtrar', reservasControllers.filtrarReservas); // Filtros
 
 module.exports = router; // Exportamos los las rutas para ocuparlas en toda la app.
