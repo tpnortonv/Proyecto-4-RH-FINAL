@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const reservasController = require('../controllers/reservasControllers'); // Importamos controladores.
+const reservasControllers = require('../controllers/reservasControllers'); // Importamos controladores.
 
 // Endpoints CRUD
 router.post('/', reservasControllers.crearReserva); // Crea nueva reserva.
